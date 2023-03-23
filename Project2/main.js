@@ -1,13 +1,15 @@
 //1.Implement the kilometers to miles unit converter. The user inputs a value in km, and then the app displays this value in miles (1 km = 0,621371 miles). Use a constant here.
+
 const kilometers = prompt("Enter value in kilometers: ")
-// conversion 
 const factor = 0.621371
-// calculate miles
 const miles = kilometers * factor
 console.log(`${kilometers} kilometers is equal to ${miles} miles.`);
 alert(`${kilometers} kilometers is equal to ${miles} miles.`);
+
 //2.Ask the user for the current time (hours, minutes). Calculate how many hours and minutes are left until the end of the day.
-function how_many_time_to_end_of_a_day(){
+
+function how_many_time_to_end_of_a_day()
+{
     const hours = prompt("Enter what time now in hours")
     const minutes = prompt("Enter what time now in minutes")
     if (minutes){
@@ -22,8 +24,8 @@ function how_many_time_to_end_of_a_day(){
 }
 how_many_time_to_end_of_a_day()
  
-
 //3.Ask the user for the 3-digit number and display it backwards. Try to use the %(division remainder) operator.
+
 var a = prompt("Enter a value");
     var b, sum = 0;
     var z = a;
